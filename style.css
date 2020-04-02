@@ -1,0 +1,45 @@
+body,
+html { 
+    width: 100%;
+    height: 100%;
+    background: url(https://images.pexels.com/photos/302083/pexels-photo-302083.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.flex-box-containier-1 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-box-containier-1 div {
+    padding: 10px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.containier-1 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.buffer{
+    height: 10rem;
+}
+
+hr {
+    border-color: red;
+    border-width: 3px;
+    max-width: 65px;
+}
